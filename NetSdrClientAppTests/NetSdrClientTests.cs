@@ -15,7 +15,7 @@ public class NetSdrClientTests
     Mock<ITcpClient> _tcpMock;
     Mock<IUdpClient> _updMock;
     
-    
+    // Використовується для тестування UdpClientWrapper
     private const int TestPort = 12345;
     UdpClientWrapper _udpClientWrapper;
     TcpClientWrapper _tcpClientWrapper;
